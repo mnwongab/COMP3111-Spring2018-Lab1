@@ -15,13 +15,13 @@ public class Lab1 {
 		}
 		System.out.println(String.format("Multiple of the numbers is %d", multiple));
 		int min = 0;
-		for (int i = 0; i <= 10; i++) {
+		for (int i = 0; i < 10; i++) {
 			if (min > arr[i]) {
 				min = arr[i];
 			}
 		}
 		int max = 0;
-		for (int i = 0; i <= 10; i++) {
+		for (int i = 0; i < 10; i++) {
 			if (max < arr[i]) {
 				max = arr[i];
 			}
